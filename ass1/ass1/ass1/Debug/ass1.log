@@ -1,0 +1,48 @@
+﻿  Source.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+D:\Dmet\ass1\ass1\Dependencies\GLFW\include\GLFW\glfw3.h(104): message : see previous definition of 'APIENTRY'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1266,5): warning MSB8012: TargetPath(D:\Dmet\ass1\ass1\Debug\ass1.exe) does not match the Linker's OutputFile property value (). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4286: symbol '_calloc' defined in 'libucrt.lib(calloc.obj)' is imported by 'glfw3.lib(win32_joystick.obj)'
+LINK : warning LNK4286: symbol '_calloc' defined in 'libucrt.lib(calloc.obj)' is imported by 'glfw3.lib(wgl_context.obj)'
+LINK : warning LNK4286: symbol '_calloc' defined in 'libucrt.lib(calloc.obj)' is imported by 'glfw3.lib(egl_context.obj)'
+LINK : warning LNK4286: symbol '_calloc' defined in 'libucrt.lib(calloc.obj)' is imported by 'glfw3.lib(osmesa_context.obj)'
+LINK : warning LNK4286: symbol '_calloc' defined in 'libucrt.lib(calloc.obj)' is imported by 'glfw3.lib(win32_monitor.obj)'
+LINK : warning LNK4286: symbol '_calloc' defined in 'libucrt.lib(calloc.obj)' is imported by 'glfw3.lib(monitor.obj)'
+LINK : warning LNK4286: symbol '_calloc' defined in 'libucrt.lib(calloc.obj)' is imported by 'glfw3.lib(vulkan.obj)'
+LINK : warning LNK4286: symbol '_calloc' defined in 'libucrt.lib(calloc.obj)' is imported by 'glfw3.lib(win32_window.obj)'
+LINK : warning LNK4217: symbol '_calloc' defined in 'libucrt.lib(calloc.obj)' is imported by 'glfw3.lib(init.obj)' in function '__glfwInputError'
+LINK : warning LNK4286: symbol '_calloc' defined in 'libucrt.lib(calloc.obj)' is imported by 'glfw3.lib(window.obj)'
+LINK : warning LNK4286: symbol '_calloc' defined in 'libucrt.lib(calloc.obj)' is imported by 'glfw3.lib(input.obj)'
+LINK : warning LNK4286: symbol '_calloc' defined in 'libucrt.lib(calloc.obj)' is imported by 'glfw3.lib(win32_init.obj)'
+LINK : warning LNK4286: symbol '_free' defined in 'libucrt.lib(free.obj)' is imported by 'glfw3.lib(win32_joystick.obj)'
+LINK : warning LNK4286: symbol '_free' defined in 'libucrt.lib(free.obj)' is imported by 'glfw3.lib(wgl_context.obj)'
+LINK : warning LNK4286: symbol '_free' defined in 'libucrt.lib(free.obj)' is imported by 'glfw3.lib(egl_context.obj)'
+LINK : warning LNK4286: symbol '_free' defined in 'libucrt.lib(free.obj)' is imported by 'glfw3.lib(osmesa_context.obj)'
+LINK : warning LNK4286: symbol '_free' defined in 'libucrt.lib(free.obj)' is imported by 'glfw3.lib(win32_monitor.obj)'
+LINK : warning LNK4286: symbol '_free' defined in 'libucrt.lib(free.obj)' is imported by 'glfw3.lib(monitor.obj)'
+LINK : warning LNK4286: symbol '_free' defined in 'libucrt.lib(free.obj)' is imported by 'glfw3.lib(vulkan.obj)'
+LINK : warning LNK4286: symbol '_free' defined in 'libucrt.lib(free.obj)' is imported by 'glfw3.lib(win32_window.obj)'
+LINK : warning LNK4217: symbol '_free' defined in 'libucrt.lib(free.obj)' is imported by 'glfw3.lib(init.obj)' in function '_terminate'
+LINK : warning LNK4286: symbol '_free' defined in 'libucrt.lib(free.obj)' is imported by 'glfw3.lib(window.obj)'
+LINK : warning LNK4286: symbol '_free' defined in 'libucrt.lib(free.obj)' is imported by 'glfw3.lib(input.obj)'
+LINK : warning LNK4286: symbol '_free' defined in 'libucrt.lib(free.obj)' is imported by 'glfw3.lib(win32_init.obj)'
+LINK : warning LNK4217: symbol '___stdio_common_vsprintf' defined in 'libucrt.lib(output.obj)' is imported by 'glfw3.lib(init.obj)' in function '__glfwInputError'
+LINK : warning LNK4286: symbol '___stdio_common_vsprintf' defined in 'libucrt.lib(output.obj)' is imported by 'glfw3.lib(win32_joystick.obj)'
+LINK : warning LNK4217: symbol '_strncmp' defined in 'libucrt.lib(strncmp.obj)' is imported by 'glfw3.lib(context.obj)' in function '__glfwRefreshContextAttribs'
+LINK : warning LNK4286: symbol '_strncmp' defined in 'libucrt.lib(strncmp.obj)' is imported by 'glfw3.lib(input.obj)'
+LINK : warning LNK4217: symbol '_strncmp' defined in 'libucrt.lib(strncmp.obj)' is imported by 'glfw3.lib(egl_context.obj)' in function '__glfwCreateContextEGL'
+LINK : warning LNK4217: symbol '_strtoul' defined in 'libucrt.lib(strtox.obj)' is imported by 'glfw3.lib(input.obj)' in function '_parseMapping'
+LINK : warning LNK4217: symbol '_qsort' defined in 'libucrt.lib(qsort.obj)' is imported by 'glfw3.lib(monitor.obj)' in function '_refreshVideoModes'
+LINK : warning LNK4217: symbol '_qsort' defined in 'libucrt.lib(qsort.obj)' is imported by 'glfw3.lib(win32_joystick.obj)' in function '_deviceCallback@8'
+glfw3.lib(window.obj) : error LNK2019: unresolved external symbol __imp__strncpy referenced in function _glfwWindowHintString
+glfw3.lib(input.obj) : error LNK2001: unresolved external symbol __imp__strncpy
+glfw3.lib(win32_joystick.obj) : error LNK2001: unresolved external symbol __imp__strncpy
+glfw3.lib(context.obj) : error LNK2019: unresolved external symbol __imp____stdio_common_vsscanf referenced in function _sscanf
+glfw3.lib(input.obj) : error LNK2019: unresolved external symbol __imp__strcspn referenced in function _glfwUpdateGamepadMappings
+glfw3.lib(input.obj) : error LNK2019: unresolved external symbol __imp__strspn referenced in function _glfwUpdateGamepadMappings
+glfw3.lib(input.obj) : error LNK2019: unresolved external symbol __imp__realloc referenced in function _glfwUpdateGamepadMappings
+glfw3.lib(win32_monitor.obj) : error LNK2001: unresolved external symbol __imp__realloc
+glfw3.lib(monitor.obj) : error LNK2001: unresolved external symbol __imp__realloc
+MSVCRT.lib(chandler4gs.obj) : error LNK2019: unresolved external symbol __except_handler4_common referenced in function __except_handler4
+Source.exe : fatal error LNK1120: 6 unresolved externals

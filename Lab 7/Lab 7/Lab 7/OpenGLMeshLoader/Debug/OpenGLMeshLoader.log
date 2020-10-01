@@ -1,0 +1,4 @@
+﻿GLTexture.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+glaux.lib(tk.obj) : error LNK2019: unresolved external symbol _sscanf referenced in function _GetRegistrySysColors@8
+glaux.lib(tk.obj) : error LNK2019: unresolved external symbol _vsprintf referenced in function _PrintMessage
+D:\Dmet\Lab 7\Lab 7\Lab 7\OpenGLMeshLoader\Debug\OpenGLMeshLoader.exe : fatal error LNK1120: 2 unresolved externals
